@@ -16,3 +16,25 @@ public class Scientific_Calculator {
 				int input2 = in.nextInt();
 				System.out.print(input1+input2);
 				break;
+		case "-":
+				System.out.print("Type the first number: ");
+				int input3 = in.nextInt();
+				System.out.print("Type the second number: ");
+				int input4 = in.nextInt();
+				System.out.print(input3-input4);
+				break;
+			case "*":
+				System.out.print("Type the first number: ");
+				int input5 = in.nextInt();
+				System.out.print("Type the second number: ");
+				int input6 = in.nextInt();
+				System.out.print(input5*input6);
+				break;
+			case "/":
+				System.out.print("Type the first number: ");
+				double input7 = in.nextInt();
+				System.out.print("Type the second number: ");
+				double input8 = in.nextInt();
+				System.out.print(input7/input8);
+				break;
+			

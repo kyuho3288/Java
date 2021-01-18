@@ -7,3 +7,12 @@ public class Scientific_Calculator {
 		Scanner in = new Scanner(System.in);
 		System.out.print("Type the operator (+,-,*,/,cos,sin): ");
 		operator = in.nextLine();
+		
+		switch(operator){
+			case "+":
+				System.out.print("Type the first number: ");
+				int input1 = in.nextInt();
+				System.out.print("Type the second number: ");
+				int input2 = in.nextInt();
+				System.out.print(input1+input2);
+				break;

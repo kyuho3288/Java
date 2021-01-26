@@ -59,6 +59,7 @@ public class Scientific_Calculator {
 				System.out.print(input7/input8);
 				break;
 			case "cos":
+			
 			case "sin":
 			case "tan":
 			case "root":

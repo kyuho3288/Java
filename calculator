@@ -64,14 +64,7 @@ public class Scientific_Calculator {
 				System.out.print(input9*(PI/180));
 				break;
 			
-			case "sin":
-			case "tan":
-			case "root":
-			case "ln":
-			case "log":
-			case "pie":
-			case "!":
-			case "^":
+			
 			
 			default:
 				System.out.print("Invalid input");
